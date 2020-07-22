@@ -1,7 +1,44 @@
-
-body{
-    background-color:mistyrose;
+i {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: purple;
 }
-h1{
-    text-decoration-style: double;
+
+ol {
+    list-style-type: upper-roman;
+}
+
+a:visited {
+    color:darkred;
+    font-family: monospace;
+}
+
+a:link {
+    color:darkolivegreen;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26pt;
+    color: darkolivegreen;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rebeccapurple;
+}
+
+.container {
+    background-color: lightblue;
+}
+
+body {
+    background-color: lightgray;
+    font-size: medium;
+}
+
+footer{
+    text-align: center;
 }
