@@ -1,0 +1,42 @@
+h1>span, h2>span{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	text-decoration:underline;
+	font-family: 'Lucida Sans Unicode';
+	letter-spacing:0.25em;
+}
+h1{
+	text-align:center;
+	font-size:22pt;
+}
+h2{
+	font-size:18pt;
+}
+body {
+	background-image: url("recipeImages/silverware.jpg");
+	color:#404040;
+	font-size:11pt;
+	font-family:georgian;
+}
+
+pre{
+	font-family:monospace;
+}
+a:visited{
+	color:#A4A400;
+}
+.comment{
+	background-color: #FFFFA8; 
+	margin-left:3em;
+	margin-right:3em;
+	font-style:italic;
+}
+.links{
+	color: #A4A400;
+}
+.bold{
+	font-weight:bold;
+}
+#line{
+	text-decoration:line-through;
+}
