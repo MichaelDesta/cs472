@@ -7,7 +7,8 @@ background-color:gainsboro;
 }
 body{
     background-color:moccasin;
-    background-image:url("image/silverware.jpg");
+    background-image:url("../image/silverware.jpg");
+    background-attachment: fixed;
 }
 h3{
     text-align:left;
@@ -17,8 +18,15 @@ h3{
     color:brown;
 }
 .comment{
-    background-color:yellow;
+    background-color:mistyrose;
+    background-color: #FFFFA8; 
+	margin-left:3em;
+	margin-right:3em;
+	font-style:italic;
 }
 #header{
     text-align:center;
+}
+.bold{
+    font-weight:bold;
 }
