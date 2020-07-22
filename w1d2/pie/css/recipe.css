@@ -1,41 +1,55 @@
+.comment-and-username {
+    background-color: #FFFFA8;
+    font-style: italic;
+    display: block;
+    margin: auto;
+    width: 95%;
+}
 
-h1{
-text-decoration:underline;
-color:brown;
-text-align:center;
-background-color:gainsboro;
+h1, h2 {
+    color: #A4A400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
+    font-size: 22pt;
+}
+
+h2 {
+    display: inline-block;
+    background-color: #F0F0F0;
+    font-size: 18pt;
+}
+#title {
+    
+    background-color: #F0F0F0;
+}
+ul {
+    list-style-image: url("../images/recipeImages/pie_bullet.png");
 }
 body{
-    background-color:moccasin;
-    background-image:url("../image/silverware.jpg");
+    background-image: url("../images/recipeImages/silverware.jpg");
+    background-repeat: repeat;
     background-attachment: fixed;
+    background-color: white;
+    color:#404040;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h3{
-    text-align:left;
-    text-decoration:underline;
-    background-color:gainsboro;
-    text-decoration-style: solid;
-    color:brown;
+
+a {
+    color: #A4A400;
 }
-.comment{
-    background-color:mistyrose;
-    background-color: #FFFFA8; 
-	margin-left:3em;
-	margin-right:3em;
-	font-style:italic;
+
+span {
+    font-weight: bold;
 }
-#header{
-    text-align:center;
+
+#copyright {
+    text-align: left;
 }
-.bold{
-    font-weight:bold;
-}
-ul{
-    list-style-image :url("../image/pie_bullet.png");
-}
-.right{
-    text-align:right;
-}
-a{
-    color:brown;
+
+#copyright-details {
+    display: inline-block;
+    text-align: right;
 }
