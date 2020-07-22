@@ -30,3 +30,12 @@ h3{
 .bold{
     font-weight:bold;
 }
+ul{
+    list-style-image :url("../image/pie_bullet.png");
+}
+.right{
+    text-align:right;
+}
+a{
+    color:brown;
+}
