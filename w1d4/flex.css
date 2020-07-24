@@ -1,0 +1,97 @@
+.header { grid-area: header; 
+     }
+.nav { grid-area: menu; 
+   }
+.cols { grid-area: column; 
+    }
+.footer { grid-area: foot; 
+        }
+
+.master {
+  display: grid;
+  grid-template-areas:
+  
+    'header header header header header header'
+    'menu menu menu menu menu menu'
+    'column column column column column column'
+    'foot foot foot foot foot foot'; 
+}
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #23d5f5;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  background-color: rgb(78, 92, 92);
+}
+
+.nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.cols {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cols div{
+    text-align: left;
+    line-height: 200px;
+    font-size: 30px;
+}
+
+.col1 {
+  background-color: #a39d9d;
+  padding: 20px;
+  flex:30%;
+}
+
+.col2 {
+   background-color: #999191;
+    padding: 20px;
+    flex:30%;
+
+
+  }
+
+  .col3 {
+    background-color: #b9b1b1;
+    padding: 20px;
+    flex:30%;
+
+  }
+
+
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(78, 92, 92);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .cols, .nav, .header{  
+    flex-direction: column;
+  }
+}
