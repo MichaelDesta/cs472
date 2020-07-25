@@ -85,8 +85,8 @@ console.log("Expected output of sum(1,2,3,4) is 10 and  " +myFunctionTest(10,sum
  console.log("Expected output of reverse('mike') is ekim and  " +myFunctionTest('ekim',reverse('mike')));
  console.log("Expected output of findLongestWord(['mike','sam','Johns','oh'])) is Johns and  "
   +myFunctionTest( 'Johns',findLongestWord(['mike','sam','Johns','oh'])));
-  console.log("Expected output of filterLongWords(['aaa','computer','python','php'],5) is 'javascript'"
-  + myFunctionTest('javascript',findLongestWords(['class','javascript','java','php'],5)));
+console.log("Expected output of filterLongWords(['class','google','python','php'],5) is 'google'" 
+  + myFunctionTest('google',findLongestWords(['class','google','python','php'],5)));
   //
   console.log('USING THE console.assert testing method, if test successed no message');
   console.assert(myFunctionTest(20,max(10,20))=='TEST SUCCEESSED', 'YOUR TEST IS FAILED');
