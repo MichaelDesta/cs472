@@ -5,5 +5,7 @@ body{
 div{
     background-color: white;
     width:300px;
+    text-size-adjust: 50px;
+   
     
 }
