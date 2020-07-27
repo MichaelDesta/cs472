@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Text Decorator</title>
+		<link href="decoratemytext.css" type="text/css" rel="stylesheet" />
+
+		<!--
+		This is a widely-used JavaScript library named jQuery that has
+		many useful functions which we need.
+		Please don't remove this link or change its URL; leave it as-is!
+		-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+		<!-- link to your script file here -->
+		<script  defer src="decorate.js"></script>
+	</head>
+
+	<body>
+		<h1> My Text Decorator</h1>
+		
+		<div>
+			<img src="image/decorated.gif" width="400" height="300" alt="very decorated!" />
+		</div>
+
+        <!-- Your UI controls go here -->
+        <fieldset id="text_holder">
+            <legend id="text_holder_label">Text</legend>
+            <textarea name="largeText" id="input_text" cols="30" rows="4" style="text-align: right;" >
+                My Name is Michael.
+                This is My Decorator
+            </textarea>
+        </fieldset>
+        <fieldset id="button_checkbox_holder">
+            <legend id="button_checkbox_label">Decoration</legend>
+            <button id="decoration_button">Bigger Decorations!</button> <br>
+            <input type="checkbox" name="decorationCheckbox" id="decoration_checkbox">
+            <label for="decoration_checkbox">Bling</label> <br>
+            <button id="pig_latin_button">Igpay Atinlay</button> <br>
+            <button id="malkovich_button">Malkovich</button>
+        </fieldset>
+    
+        <footer>
+            <a href="https://validator.w3.org/check/referer">
+                <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
+                alt="html validator"/>
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png"
+                alt="css validator"/>
+            </a>
+        </footer>
+	</body>
+</html>
