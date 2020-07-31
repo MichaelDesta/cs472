@@ -14,7 +14,7 @@
 
 
        <label id="label">Email address</label><br>
-           <input  id="input" type="text" placeholder="Enter Email" required> 
+           <input  id="input" type="text" placeholder="Enter Email" pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/" > 
            <p>We'll never share your email with anyone else.</p>
         <label id="label">Password</label><br>
         <input  id="input" type="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" required>
